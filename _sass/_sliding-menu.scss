@@ -73,7 +73,15 @@
   }
   transform: translateX(100%);
   transition: $sliding-menu-animation;
-  background: $sliding-menu-background;
+  //background: $sliding-menu-background;
+  
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#99b898+0,feceab+21,ff847c+46,e84a5f+70,2a363b+98 */
+  background: #99b898; /* Old browsers */
+  background: -moz-linear-gradient(left,  #99b898 0%, #feceab 21%, #ff847c 46%, #e84a5f 70%, #2a363b 98%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #99b898 0%,#feceab 21%,#ff847c 46%,#e84a5f 70%,#2a363b 98%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #99b898 0%,#feceab 21%,#ff847c 46%,#e84a5f 70%,#2a363b 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99b898', endColorstr='#2a363b',GradientType=1 ); /* IE6-9 */
+
   z-index: 20;
   overflow-y: auto;
   overflow-x: hidden;
