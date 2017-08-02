@@ -81,7 +81,6 @@
   background: linear-gradient(to bottom,  #2a363b 33%,#e84a5f 53%,#ff847c 67%,#feceab 80%,#99b898 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a363b', endColorstr='#99b898',GradientType=0 ); /* IE6-9 */
 
-
   z-index: 20;
   overflow-y: auto;
   overflow-x: hidden;
@@ -106,7 +105,7 @@
       @include media($small) {
         @include font-size(48,no,1);
       }
-      font-family: $base-font;
+      font-family: 'Stellar-Bold', $base-font;
       text-transform: uppercase;
       font-weight: 400;
     }
