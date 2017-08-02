@@ -1,5 +1,5 @@
 ---
-layout: media
+layout: review
 title: {{ title }}
 modified:
 categories: {{ dir }}
@@ -10,4 +10,5 @@ image:
   teaser:
   thumb:
 ads: false  
+share: true
 ---

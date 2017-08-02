@@ -10,7 +10,6 @@ categories:
     - Reviews
 tags: Spectrum
 permalink: spectrum/:title.html
-share: true
 ---
 
 Avast ..not one for land-lubbers.
