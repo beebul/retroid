@@ -26,12 +26,23 @@
 	padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
 	height: $masthead-height;
 	text-decoration: none;
-	color: $black;
+	color: #fff;//$black;
 	font-family: 'Stellar-bold', $alt-font;
 	font-weight: 700;
-	@include font-size(60,no);
+	@include font-size(60, no);
 	line-height: .5 * $masthead-height; // half the height to center vertically
 	text-transform: uppercase;
+	text-shadow:
+	-2px -2px 0 #333,  
+	2px -2px 0 #333,
+	-2px 2px 0 #333,
+	2px 2px 0 #333;
+}
+
+.site-logo //penrose_triangle
+{
+	max-width: 100%;
+	max-height: 300%;
 }
 
 
