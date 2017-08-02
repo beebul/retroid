@@ -1,13 +1,17 @@
 ---
 layout: review
 title:  "Worse Things Happen At Sea"
-imagefeature: headers/worse-things-happen-at-sea-resized.jpg
+image:
+  feature: headers/worse-things-happen-at-sea-resized.jpg
+  teaser: lock-400x250.jpg
+  credit: Michael Rose
+  creditlink: http://mademistakes.com
 categories:
     - Reviews
 tags: Spectrum
 permalink: spectrum/:title.html
+share: true
 ---
-
 
 Avast ..not one for land-lubbers.
 

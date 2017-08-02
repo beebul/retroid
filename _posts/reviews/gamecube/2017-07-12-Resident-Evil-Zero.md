@@ -6,7 +6,8 @@ subheadline: Gamecube
 teaser: "Nice graphics upgrade, some truely scary moments but doesn't have that traditional Resi-feel..."
 categories:
     - Reviews
-imagefeature: headers/resident-evil-zero.png
+image:
+  feature: headers/resident-evil-zero.png
 permalink: gamecube/:title.html
 ---
 
