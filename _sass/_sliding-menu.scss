@@ -74,11 +74,11 @@
   transform: translateX(100%);
   transition: $sliding-menu-animation;
   
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2a363b+33,e84a5f+53,ff847c+67,feceab+80,99b898+100 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2a363b+38,e84a5f+59,ff847c+71,feceab+80,99b898+100 */
   background: #2a363b; /* Old browsers */
-  background: -moz-linear-gradient(top,  #2a363b 33%, #e84a5f 53%, #ff847c 67%, #feceab 80%, #99b898 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  #2a363b 33%,#e84a5f 53%,#ff847c 67%,#feceab 80%,#99b898 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  #2a363b 33%,#e84a5f 53%,#ff847c 67%,#feceab 80%,#99b898 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: -moz-linear-gradient(top,  #2a363b 38%, #e84a5f 59%, #ff847c 71%, #feceab 80%, #99b898 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #2a363b 38%,#e84a5f 59%,#ff847c 71%,#feceab 80%,#99b898 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #2a363b 38%,#e84a5f 59%,#ff847c 71%,#feceab 80%,#99b898 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a363b', endColorstr='#99b898',GradientType=0 ); /* IE6-9 */
 
   z-index: 20;
