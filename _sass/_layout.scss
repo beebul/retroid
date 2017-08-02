@@ -28,21 +28,21 @@
 	letter-spacing: -4px;
 	text-decoration: none;
 	color: #333;//$black;
-	font-family: 'Stellar-bold', $alt-font;
+	font-family: 'Stellar-Bold', $alt-font;
 	font-weight: 700;
-	@include font-size(60, no);
-	line-height: .5 * $masthead-height; // half the height to center vertically
+	@include font-size(70, no);
+	line-height: .25 * $masthead-height; // half the height to center vertically
 	text-transform: uppercase;
   text-shadow: -2px -2px 0 #ddd, 2px -2px 0 #333, -2px 2px 0 #ddd, 2px 2px 0 #ddd;
 }
 
+
 .site-logo //penrose_triangle
 {
-	display: inlin;
-	max-width: 100%;
-  max-height: 200%;
+	max-height:  $masthead-height; 
+	vertical-align: middle;
+	// /margin-top: calc($masthead-height - 210px);
 }
-
 
 /*
    Menus
@@ -100,6 +100,7 @@
 	}
 	@include media($large) {
 		@include span-columns(7);
+
 		ul {
 			position: absolute;
 			right: 0;
@@ -116,6 +117,8 @@
 			line-height: .5 * $masthead-height; // half the height to center vertically
 			color: $black;
 			text-transform: uppercase;
+					margin-top: 2rem;
+					margin-bottom: -1rem;
 		}
 	}
 }
