@@ -7,20 +7,20 @@
 
 - title: About
   url: /about/
-  excerpt: "All about Skinny Bones for Jekyll."
+  excerpt: "Instruction Manual"
   image: 400x250.gif
   
 - title: Reviews
   url: /reviews/
-  excerpt: "All the reviews."
+  excerpt: "All the reviews, all here"
   image: 400x250.gif
 
-- title: Sample Articles
-  url: /articles/
-  excerpt: "Examples of long form posts."
-  image: 400x250.gif
-
-- title: Media
-  url: /media/
-  excerpt: "Examples of media posts perfect for showcasing work, photographs, etc."
-  image: 400x250.gif
+# - title: Sample Articles
+#   url: /articles/
+#   excerpt: "Examples of long form posts."
+#   image: 400x250.gif
+# 
+# - title: Media
+#   url: /media/
+#   excerpt: "Examples of media posts perfect for showcasing work, photographs, etc."
+#   image: 400x250.gif

@@ -2,10 +2,10 @@
 layout: review
 title:  "Worse Things Happen At Sea"
 image:
-  feature: headers/worse-things-happen-at-sea-resized.jpg
-  teaser: lock-400x250.jpg
-  credit: Michael Rose
-  creditlink: http://mademistakes.com
+  feature: headers/wthas-heading-1600x800.jpg
+  teaser: wthas-heading-400x250.jpg
+  #credit: Michael Rose
+  #creditlink: http://mademistakes.com
 categories:
     - Reviews
 tags: Spectrum
