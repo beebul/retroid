@@ -34,11 +34,11 @@
 	line-height: .25 * $masthead-height; // half the height to center vertically
 	text-transform: uppercase;
   text-shadow: -2px -2px 0 #ddd, 2px -2px 0 #333, -2px 2px 0 #ddd, 2px 2px 0 #ddd;
+	vertical-align: middle;
 }
 
-
-.site-logo //penrose_triangle
-{
+//penrose_triangle logo img
+.site-logo { 
 	max-height:  $masthead-height; 
 	vertical-align: middle;
 	// /margin-top: calc($masthead-height - 210px);
